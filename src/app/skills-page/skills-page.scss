@@ -1,0 +1,46 @@
+$text-font-color: #202020;
+$secondary-color: #333333;
+
+.container-custom {
+    @media screen and (min-width: 1200px) {
+        max-width: 920px;
+    }
+    
+}
+
+.card-image {
+    min-height: 50px;
+
+    &.card-image-1 {
+        background: url(assets/Icons/stopwatch.png) no-repeat center center;
+        background-size: auto 100%;
+    }
+
+    &.card-image-2 {
+        background: url(assets/Icons/safe-box.png) no-repeat center center;
+        background-size: auto 100%;
+    }
+
+    &.card-image-3 {
+        background: url(assets/Icons/icon.png) no-repeat center center;
+        background-size: auto 100%;
+    }
+}
+
+.card-image + .card-body {
+    > h6 {
+        color: $text-font-color;
+    }
+    > p {
+        font-size: 13px;
+        color: $secondary-color;
+        // color: $text-font-color;
+        opacity: 0.5;
+    }
+    
+}
+
+.card-container{
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

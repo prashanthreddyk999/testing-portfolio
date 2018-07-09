@@ -1,0 +1,28 @@
+$secondary-color: #333333;
+
+.testimonial-page{
+    .title {
+        color: $secondary-color;
+        opacity: 0.5;
+    }
+    .description {
+        font-size: 13px;
+        color: $secondary-color;
+        opacity: 0.5;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 30%;
+    }
+
+    .carousel-indicators{
+        li {
+            background-color: #FFCDA5;
+            opacity: 0.5;
+            height: 5px;
+        }
+        .active {
+            // background-color: #FFCDA5;
+            opacity: 1;
+        }
+    }
+}

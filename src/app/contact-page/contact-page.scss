@@ -1,0 +1,59 @@
+$primary-color: #FFCDA5;
+$secondary-color: #333333;
+.contact-page {
+  .title {
+    color: $secondary-color;
+    opacity: 0.5;
+  }
+
+  .footer {
+    display: flex;
+    padding: 3rem 0;
+    background-color: $primary-color;
+
+    .footer-name {
+    //   font-size: 18px;
+      float: left;
+      color: white;
+    }
+
+    .footer-center {
+      display: inline-block;
+      float: none;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          color: white;
+          padding: 0 1.2rem;
+          font-size: 13px;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .fa {
+        font-size: 19px !important;
+        &.fa-fb {
+            background: url(assets/Icons/Facebook-icon.png) no-repeat center center;
+            background-size: auto 100%;
+        }
+        &.fa-twitter {
+            background: url(assets/Icons/github1.png) no-repeat center center;
+            background-size: auto 100%;
+        }
+        &.fa-linkedin {
+            background: url(assets/Icons/insta.png) no-repeat center center;
+            background-size: auto 100%;
+        }
+    }
+  }
+}

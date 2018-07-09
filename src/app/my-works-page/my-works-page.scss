@@ -1,0 +1,25 @@
+$secondary-color: #333333;
+
+.my-works-page {
+    .title {
+        color: $secondary-color;
+        opacity: 0.5;
+    }
+  .card-container {
+    border: none;
+    img {
+      height: 300px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .description{
+        background-color: #FFCDA5;
+        background-clip: content-box;
+        color: white;
+
+        // &--children {
+        // }
+    }
+  }
+}
